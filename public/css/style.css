@@ -89,14 +89,16 @@ a {
 
 #users {
   font-size: 25px;
-  color: #fff;
+  font-weight: bold;
+  color: greenyellow;
   /* margin-left: 22px; */
-  padding-left: 15px;
+  padding-left: 40px;
   background: #667aff;
 }
 
 .chat-messages {
   padding: 30px;
+
   /* max-height: 500px; */
   max-height: 400px;
   overflow-y: scroll;
@@ -111,8 +113,9 @@ a {
 
 .chat-messages .message .meta {
   font-size: 20px;
+  color: green;
   font-weight: bold;
-  color: var(--dark-color-b);
+  /* color: var(--dark-color-b); */
   opacity: 0.7;
   margin-bottom: 7px;
 }
